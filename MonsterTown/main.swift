@@ -22,3 +22,7 @@ fredTheZombie.town?.printDescription()
 print("Victim pool: \(fredTheZombie.victimPool)")
 fredTheZombie.victimPool = 500
 print("Victim poom: \(fredTheZombie.victimPool)")
+print(Zombie.spookyNoise)
+if Zombie .isTerrifying {
+    print("Run away!")
+}
