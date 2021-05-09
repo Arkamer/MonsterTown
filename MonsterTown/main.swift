@@ -8,7 +8,10 @@
 import Foundation
 
 var myTown = Town()
-//myTown.changePopulation(by: 500)
+let myTownSize = myTown.townSize
+print(myTownSize)
+myTown.changePopulation(by: 1_000_000)
+print("Size: \(myTown.townSize); population: \(myTown.population)")
 
 let fredTheZombie = Zombie()
 fredTheZombie.name = "Fred"
@@ -16,9 +19,6 @@ fredTheZombie.town = myTown
 fredTheZombie.terrorizeTown()
 fredTheZombie.town?.printDescription()
 
-let nosferatus = Vampire()
-nosferatus.name = "Nosferatus"
-nosferatus.town = myTown
-nosferatus.terrorizeTown()
-nosferatus.town?.printDescription()
-print(nosferatus.thralls.count)
+print("Victim pool: \(fredTheZombie.victimPool)")
+fredTheZombie.victimPool = 500
+print("Victim poom: \(fredTheZombie.victimPool)")
