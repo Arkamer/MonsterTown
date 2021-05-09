@@ -26,3 +26,4 @@ print(Zombie.spookyNoise)
 if Zombie .isTerrifying {
     print("Run away!")
 }
+

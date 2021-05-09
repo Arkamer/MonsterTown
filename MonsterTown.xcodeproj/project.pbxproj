@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC54642626391502008CCE6E /* Vampire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54642526391502008CCE6E /* Vampire.swift */; };
+		EC58127E26478AA1008A6521 /* Mayor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58127D26478AA1008A6521 /* Mayor.swift */; };
 		EC7E29952634E330009D74AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E29942634E330009D74AC /* main.swift */; };
 		EC7E299D2634E556009D74AC /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E299C2634E556009D74AC /* Town.swift */; };
 		EC7E29A02634EDBA009D74AC /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E299F2634EDB9009D74AC /* Monster.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		EC54642526391502008CCE6E /* Vampire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vampire.swift; sourceTree = "<group>"; };
+		EC58127D26478AA1008A6521 /* Mayor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mayor.swift; sourceTree = "<group>"; };
 		EC7E29912634E330009D74AC /* MonsterTown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTown; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7E29942634E330009D74AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EC7E299C2634E556009D74AC /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				EC7E29A22634EFAE009D74AC /* Zombie.swift */,
 				EC7E299F2634EDB9009D74AC /* Monster.swift */,
 				EC7E299C2634E556009D74AC /* Town.swift */,
+				EC58127D26478AA1008A6521 /* Mayor.swift */,
 				EC54642526391502008CCE6E /* Vampire.swift */,
 			);
 			path = MonsterTown;
@@ -133,6 +136,7 @@
 			files = (
 				EC7E29952634E330009D74AC /* main.swift in Sources */,
 				EC7E29A32634EFAE009D74AC /* Zombie.swift in Sources */,
+				EC58127E26478AA1008A6521 /* Mayor.swift in Sources */,
 				EC7E29A02634EDBA009D74AC /* Monster.swift in Sources */,
 				EC54642626391502008CCE6E /* Vampire.swift in Sources */,
 				EC7E299D2634E556009D74AC /* Town.swift in Sources */,
