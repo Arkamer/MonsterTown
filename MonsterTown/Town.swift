@@ -8,11 +8,15 @@
 import Foundation
 
 struct Town {
+    var mayor = Mayor()
     static let world = "Earth"
     let region = "Middle"
     var population = 5_422 {
         didSet(oldPopulation) {
-            print("The population has changed to \(population) from \(oldPopulation)")
+            if population < oldPopulation {
+                print("The population has changed to \(population) from \(oldPopulation)\n \(mayor.speech())")
+                mayor.anxietyLevel += 1
+            }
         }
     }
     var numberOfStoplights = 4
